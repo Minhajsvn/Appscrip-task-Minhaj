@@ -12,7 +12,7 @@ const accordionData = [
     { title: "PATTERN", content: [] },
 ];
 
-export default function SideBar() {
+export default function SideBar({ setDisplaySideBar }) {
     return (
         <div className={styles.sideBar}>
             <label htmlFor="customizable">
