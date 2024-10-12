@@ -1,0 +1,22 @@
+
+.card{
+    width: 300px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.callToAction{
+
+    font-size: 14px;
+    color: #888792;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
