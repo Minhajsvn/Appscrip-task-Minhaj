@@ -57,6 +57,23 @@ header{
     margin: 10px 0;
 }
 
+.mobileNavMenu {
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.129);
+}
+
+.toggleButton{
+    display: none;
+}
+
 .navButton {
     background: none;
     border: none;
@@ -94,3 +111,46 @@ nav button{
     font-size: 16px;
 }
 
+
+@media screen and (max-width: 768px) {
+    .logo{
+        left: 40px;
+        width: 20px;
+    }
+
+    .language {
+        display: none;
+    }
+    
+    .profile{
+        display: none;
+    }
+
+    .menuIcons {
+        gap: 8px;
+    }
+
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .mobileNavMenu {
+        display: flex !important;
+    }
+
+    nav {
+        width: 20vw;
+    }
+
+    .toggleButton {
+        display: block;
+        padding: 0 12px;
+    }
+
+
+    .navMenu {
+        display: none;
+    }
+
+}

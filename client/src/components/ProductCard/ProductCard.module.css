@@ -15,7 +15,6 @@
 }
 
 .callToAction{
-
     font-size: 14px;
     color: #888792;
 }
@@ -24,4 +23,24 @@
     width: 20px;
     height: 20px;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 425px) {
+    .card{
+        width: 168px;
+    }
+
+    .image{
+        width:  168px;
+        height: 224px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    .callToAction{
+        font-size: 10px;
+    }
 }

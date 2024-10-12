@@ -48,6 +48,17 @@ button {
     font-weight: 600;
 }
 
+@media screen and (max-width: 425px) {
+    .headerText{
+        display: none;
+    }
+
+    .recomendButton{
+        border-left: 1px #E5E5E5 solid;
+        padding-left: 25px;
+    }
+}
+
 
 /* SideBar css */
 

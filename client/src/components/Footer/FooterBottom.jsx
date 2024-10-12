@@ -30,17 +30,17 @@ export default function FooterBottom() {
                 <div>
                     <div>
                         <h4>FOLLOW US</h4>
-                        <img src={instagram} alt="" className={styles.img} />
-                        <img src={linkedin} alt="" className={styles.img} />
+                        <img src={instagram} alt="instagram" className={styles.img} />
+                        <img src={linkedin} alt="linkedin" className={styles.img} />
                     </div>
                     <div>
                         <h4>mettā muse ACCEPTS</h4>
-                        <img src={gpay} alt="" className={styles.img} />
-                        <img src={mastercard} alt="" className={styles.img} />
-                        <img src={paypal} alt="" className={styles.img} />
-                        <img src={amex} alt="" className={styles.img} />
-                        <img src={apple} alt="" className={styles.img} />
-                        <img src={opay} alt="" className={styles.img} />
+                        <img src={gpay} alt="gpay icon" className={styles.img} />
+                        <img src={mastercard} alt="mastercard" className={styles.img} />
+                        <img src={paypal} alt="paypal" className={styles.img} />
+                        <img src={amex} alt="amex" className={styles.img} />
+                        <img src={apple} alt="apple pay" className={styles.img} />
+                        <img src={opay} alt="opay" className={styles.img} />
                     </div>
                 </div>
             </div>

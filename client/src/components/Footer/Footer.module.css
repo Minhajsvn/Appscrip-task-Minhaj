@@ -75,3 +75,44 @@ h4{
     display: flex;
     align-items: center;
 }
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        padding: 60px 80px;
+    }
+
+    .footerTop{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .FooterBottom{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .section button{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+    .footer{
+        padding: 60px 20px;
+    }
+
+    .footerTop input[type="email"] {
+        width: 200px;
+    }
+
+    .footerTop button{
+        width: 100px;
+    }
+}
