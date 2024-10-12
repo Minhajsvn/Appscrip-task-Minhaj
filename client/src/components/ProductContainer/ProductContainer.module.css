@@ -79,6 +79,8 @@ button {
 
 .menuCard{
     position: absolute;
+    background-color: #fff;
+    border-radius: 4px;
     right: 30px;
     top: 70px;
     width: 230px;

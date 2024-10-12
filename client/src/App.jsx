@@ -1,7 +1,7 @@
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
-import ProductCard from './components/ProductCard/ProductCard'
 import ProductContainer from './components/ProductContainer/ProductContainer'
 
 
@@ -11,8 +11,8 @@ function App() {
       <div>
         <Header />
         <Hero />
-        {/* <ProductCard /> */}
         <ProductContainer />
+        <Footer />
       </div>  
   )
 }

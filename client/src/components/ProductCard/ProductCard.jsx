@@ -1,5 +1,4 @@
 import styles from './ProductCard.module.css';
-import demoImage from '../../assets/demoImage.png'
 import heartIcon from '../../assets/heart.svg'
 
 export default function ProductCard({ key, item }) {

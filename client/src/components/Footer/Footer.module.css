@@ -1,0 +1,77 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 60px 160px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerTop input[type="email"] {
+    width: 380px;
+    padding: 10px;
+}
+
+.footerTop button{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.315);
+    border: 1px rgba(255, 255, 255, 0.314) solid;
+    border-radius: 5px;
+    width: 180px;
+    height: 42px;
+    margin-left: 10px;
+}
+
+.footerTop p{
+    padding: 10px 0;
+}
+
+small{
+    font-size: 12px;
+    padding-right: 50px;
+}
+
+hr{
+    margin: 40px 0;
+}
+
+.FooterBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.section button{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.img{
+    margin-right: 8px;
+}
+
+.country{
+    display: flex;
+    align-items: center;
+}
